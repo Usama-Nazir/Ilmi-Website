@@ -1,0 +1,54 @@
+.arrival{
+    width: 100%;
+    text-align: center;
+    margin: 4rem auto;
+
+    &__heading{
+        width: 170px;
+        margin: 0 auto;
+        border: 1px solid $grey-light;
+    }
+    &__heading-big{
+        font-size: 1.9rem;
+        padding: 8px 0;
+    }
+    &__grid{
+        width: 85%;
+        margin: 0 auto;
+        padding: 4rem 0;
+        display: grid;
+        grid-template-columns: repeat(3, 350px);
+        gap: 1rem;
+    }
+    &__col{
+        padding: 15px 0 15px 10px;
+        border: 1px solid $grey-light;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    &__book-pic{
+        width: 120px;
+    }
+    &__heading-medium{
+        font-size: 1.8rem;
+        color: $grey-dark;
+    }
+    &__price{
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: $grey;
+    }
+    &__discount{
+        font-size: 1.1rem;
+        text-decoration: line-through;
+        margin-top: .8rem;
+    }
+    &__icon{
+        margin-top: .7rem;
+
+        &--rating{
+            color: $green;
+        }
+    }
+}

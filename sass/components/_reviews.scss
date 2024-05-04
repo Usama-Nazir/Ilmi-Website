@@ -1,0 +1,45 @@
+.reviews{
+    width: 100%;
+    border-top: 1px solid $grey;
+    text-align: center;
+    margin-top: 4rem;
+
+    &__heading{
+        width: 230px;
+        border: 1px solid $grey;
+        margin: -1.3rem auto 0 auto;
+        font-size: 1.3rem;
+    }
+    &__flex{
+        width: 80%;
+        margin: 2rem auto;
+        padding: 5rem 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__profile{
+        width: 32%;
+        border: 1px solid $grey;
+        padding: 2rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+    &__pic{
+        width: 70px;
+        height: 80px;
+        border-radius: 50%;
+    }
+    &__name{
+        font-size: 1.7rem;
+        color: $black2;
+    }
+    &__pera{
+        color: $grey-dark;
+    }
+    &__rating{
+        font-size: 1.2rem;
+        color: $green;
+    }
+}

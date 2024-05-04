@@ -1,0 +1,31 @@
+.services{
+        width: 80%;
+        margin: 3rem auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 0;
+
+        &__cart{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+            line-height: 1.5;
+        }
+        &__icon{
+            font-size: 2rem;
+            color: $green;
+            font-weight: 700;
+        }
+        &__heading{
+            color: $grey-dark;
+            font-size: 1.7rem;
+            font-weight: 600;
+        }
+        &__pera{
+            font-size: .8rem;
+            color: $grey;
+        }
+        
+    }

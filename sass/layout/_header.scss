@@ -1,0 +1,143 @@
+.header{
+    width: 100%;
+
+.nav{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+
+    &__logo{
+        width: 20%;
+
+        &--icon{
+            font-size: 1.5rem;
+            color: $green;
+        }
+        &--span{
+            font-size: 1.5rem;
+            color: $black;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    }
+    &__search-box{
+        width: 50%;
+
+        &--back{
+            width: 60%;
+            border: 1px solid $grey-light;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        &--enter{
+            width: 300px;
+            padding: .8rem 0;
+            border: none;
+            outline: none;
+        }
+        &--icon{
+            font-size: 1.2rem;
+        }
+    }
+    &__right-icons{
+
+        &--icon{
+            font-size: 1.1rem;
+            color: $grey;
+            margin-left: 5px;
+        }
+    }
+}
+
+.container{
+    width: 100%;
+    height: 90vh;
+    margin-top: 3rem;
+    background-image: url(/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+
+    &__top{
+        width: 100%;
+        padding: 1rem;
+        background-color: $green;
+    }
+    &__list{
+        list-style: none;
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+    &__items{
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    &__links{
+        text-decoration: none;
+        color: $white;
+    }
+}
+.header-main{
+    width: 90%;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+
+    &__buy{
+        width: 40%;
+    }
+    &__heading{
+        font-size: 3rem;
+        color: $black-light;
+    }
+    &__pera{
+        font-size: 1rem;
+        color: $grey;
+        margin: 2.3rem 0;
+    }
+    &__btn{
+        width: 150px;
+        padding: 15px;
+        border: none;
+        border-radius: 7px;
+        background-color: $green;
+        color: $white;
+        font-size: 1.2rem;
+    }
+
+    &__books{
+        width: 35%;
+    }
+    &__box{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
+    }
+    &__pic{
+        width: 110px;
+        margin-left: 1rem;
+    }
+    &__stand{
+        width: 100%;
+
+        &--pic{
+            width: 420px;
+        }
+    }
+}
+
+}

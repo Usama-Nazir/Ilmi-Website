@@ -1,0 +1,43 @@
+.update{
+    width: 100%;
+    height: 70vh;
+    background-image: url(/images/letter.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    &__sub{
+        width: 50%;
+        text-align: center;
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+    &__heading-medium{
+        font-size: 2rem;
+    }
+    &__email{
+        width: 400px;
+        padding: 1rem;
+        border: none;
+        border-radius: 7px;
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+    &__btn{
+        width: 130px;
+        padding: 12px;
+        background-color: $green;
+        color: $white;
+        border: none;
+        border-radius: 9px;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+}
